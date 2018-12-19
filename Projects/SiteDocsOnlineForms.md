@@ -3,7 +3,7 @@
 
 - #### Webforms Phase (Accepted Stories)
   - [x] [Update V2 API to be able to Load DocumentTemplates by locationId](https://www.pivotaltracker.com/story/show/160000160)
-    - [ ]Not working as expected => Forms that have visibility of 2 locations only, is visible on other locations as well. Example `New Form For Report`. 
+    - [ ] Not working as expected => Forms that have visibility of 2 locations only, is visible on other locations as well. Example `New Form For Report`. 
     - [x] Post on #dev-stuff to sameer
   - [x] [Publish a dev version of html fill forms](https://www.pivotaltracker.com/story/show/159895120)
   - [x] [Set up V1 to Allow CORS](https://www.pivotaltracker.com/story/show/160268031)
