@@ -22,6 +22,25 @@
     - [ ] Change button to ‘Done’  with background color - #42AF48 and text color #ffffff => its different
     - [ ] Invert button colors on the form and remove margin-top so it’s tighter to question
     - [ ] View on Map ==> Show on Map
+  - [ ] [User can fill in all form item types online](https://www.pivotaltracker.com/story/show/158811777)
+    - [ ] Short answer has multiline
+    - [ ] Select Single => Why Checkbox
+    - [ ] Date => No year
+    - [ ] Image File => Failed to load PDF file 
+  - [ ] [User can add photos to form items (as per app)](https://www.pivotaltracker.com/story/show/159023660) => As per app details
+  - [ ] [User can add comments to form items (as per app)](https://www.pivotaltracker.com/story/show/159023571) => As per app details
+  - [x] [User can duplicate sections](https://www.pivotaltracker.com/story/show/159427709)
+  - [x] [User can sign and submit a new form](https://www.pivotaltracker.com/story/show/159023667)
+  - [ ] [Web Forms - select workers form item using the select multiple modal](https://www.pivotaltracker.com/story/show/161446211)
+    - [ ] How is location filtered by company
+  - [ ] [web forms form data is validated ](https://www.pivotaltracker.com/story/show/161168646) 
+    - [ ] What are the validations added?
+  - [ ] [User can switch location](https://www.pivotaltracker.com/story/show/162652495)
+    - [ ] Not Working - Send the User to the Form List page when they switch Locations.
+    - [ ] Not Working - If a worker switches a location ‘mid-form’ the location for that form is updated while preserving the data.
+  - [ ] Remove all console logs
+
+- #### Webforms Phase 4 (Accepted Stories)
   - [x] [Annotations on Photos](https://www.pivotaltracker.com/story/show/161931165)
   - [ ] [](https://www.pivotaltracker.com/story/show/)
 
