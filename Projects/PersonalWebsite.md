@@ -3,7 +3,10 @@
 #### Leftovers
 - [ ] Complete Portfolio Section
   - [X] Create Template for item
-  - [ ] Create all items
+  - [x] Create all items
+  - [x] Add feature image
+  - [x] Improve look and feel
+  - [ ] Ordering items properly on page
   - [ ] Add Client, Devices, Browser supported where necessary
 - [ ] About me
   - [ ] Talk about experience skills and projects one para each
