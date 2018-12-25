@@ -1,6 +1,36 @@
 ## Issues, Ideas and Tasks
 
 
+- #### Scroll to first error message
+  - Current Scenario => Form validation occurs in Template and error is displayed in ItemWrapper
+  ```
+    <Template>
+      <Section>
+        <ItemWrapper>
+        </ItemWrapper>
+        <ItemWrapper>
+          <p className="error">Error</p>
+        </ItemWrapper>
+      </Section>
+      <Section>
+        <ItemWrapper>
+          <p className="error">Error</p>
+        </ItemWrapper>
+      </Section>
+    </Template>
+  ```
+  - Requirement
+    - [ ] Find first error message and scroll to it's item wrapper
+    - [ ] If possible use cleaner way of using ref and forwardRef
+  - Solution
+    - Create `ref` in `<Template />`
+    - Save first error section id and item id 
+    - pass `ref` and first error section id and item id to Section
+    - if any `<ItemWrapper />` in `<Section />` matches given error section id and item id, then pass ref to it
+    - Set ref to first `<div />` in `<ItemWrapper />`
+    - On form validation in `<Template />`, after setting state, call `scrollIntoView` on the ref
+
+
 - #### Webforms Phase (Accepted Stories)
   - [x] [Update V2 API to be able to Load DocumentTemplates by locationId](https://www.pivotaltracker.com/story/show/160000160)
     - [ ] Not working as expected => Forms that have visibility of 2 locations only, is visible on other locations as well. Example `New Form For Report`. 
