@@ -1,5 +1,12 @@
 ## Issues, Ideas and Tasks
 
+- #### Show Other items in list
+  - show textbox if
+    - other is checked (value === 'other')
+    - if focus and blur on textbox without typing anything
+    - if textbox has value
+  - hide textbox if
+    - value != 'other' && other value is not undefined
 
 - #### Scroll to first error message
   - Current Scenario => Form validation occurs in Template and error is displayed in ItemWrapper
