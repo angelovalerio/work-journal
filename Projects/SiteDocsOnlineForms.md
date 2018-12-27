@@ -7,6 +7,8 @@
     - if textbox has value
   - hide textbox if
     - value != 'other' && other value is not undefined
+  - Keep 'other' checked - if showTextBox is true
+    - MultiSelect => state.value === ['other']
 
 - #### Scroll to first error message
   - Current Scenario => Form validation occurs in Template and error is displayed in ItemWrapper
