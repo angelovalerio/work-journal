@@ -1,5 +1,41 @@
 ## Issues, Ideas and Tasks
 
+- #### Refactor `<Template />` Component
+  - Exisiting Features
+    - Render
+      - Should render form in readonly state after successfull submit
+      - Render Loader when template and company details are fetched
+      - If no template is selected, render message `Select a document`
+      - ```
+        <Root>
+          <CompanyCard />
+          <Section />
+          <Section />
+          <Section />
+          <Section />
+          <SignatureList />
+          <SubmitButtons />
+
+          <SignatureDialog />
+        </Root>
+      ```
+    - Logic
+      - [x] Open and close signature dialog
+      - [ ] Validate form before submit
+      - [ ] Submit form
+        - [ ] ProjectFormSignaturesV3
+        - [ ] ProjectUploads
+        - [ ] ProjectFormsV3
+      - [ ] Show error/success message as applicable after submit
+      - [ ] Format Image
+      - [ ] Repeat Section
+      - [x] Update values in state when any item gets updated
+      - [x] Update Card title
+      - [ ] Update Comment
+    - Challenge
+      - [ ] Data accepted by API is in different Format then the state
+      - [x] No data in lists
+
 - #### Show Other items in list
   - show textbox if
     - other is checked (value === 'other')
