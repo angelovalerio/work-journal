@@ -6,8 +6,8 @@
   - [x] Create all items
   - [x] Add feature image
   - [x] Improve look and feel
-  - [ ] Ordering items properly on page
-  - [ ] Add Client, Devices, Browser supported where necessary
+  - [x] Ordering items properly on page
+  - [x] Add Client, Devices, Browser supported where necessary
 - [ ] About me
   - [ ] Talk about experience skills and projects one para each
   - [ ] Mention recommendations
