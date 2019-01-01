@@ -1,23 +1,24 @@
 ## yashikag.com
 
 #### Leftovers
-- [ ] Complete Portfolio Section
+- [x] Complete Portfolio Section
   - [X] Create Template for item
   - [x] Create all items
   - [x] Add feature image
   - [x] Improve look and feel
   - [x] Ordering items properly on page
   - [x] Add Client, Devices, Browser supported where necessary
-- [ ] About me
-  - [ ] Talk about experience skills and projects one para each
-  - [ ] Mention recommendations
-- [ ] Blog Post
-  - [ ] Fix Headers
-  - [ ] Remove Header Image
-- [ ] Universal Typography and colors for website
-- [ ] Work with me section
-  - [] What services you want to provide
-  - [] Write about them
+- [x] About me
+  - [x] Talk about experience, skills and projects one para each
+    - started
+  - [x] Mention recommendations
+- [x] Blog Post
+  - [x] Fix Headers
+  - [x] Remove Header Image
+- [x] Universal Typography and colors for website
+- [x] Work with me section
+  - [x] What services you want to provide
+  - [x] Write about them
 
 #### Projects not mentioned => Not capable of being part of portfolio
 - TPC

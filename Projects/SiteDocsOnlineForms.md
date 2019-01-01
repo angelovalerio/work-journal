@@ -21,17 +21,18 @@
       ```
     - Logic
       - [x] Open and close signature dialog
-      - [ ] Validate form before submit
-      - [ ] Submit form
-        - [ ] ProjectFormSignaturesV3
-        - [ ] ProjectUploads
-        - [ ] ProjectFormsV3
-      - [ ] Show error/success message as applicable after submit
-      - [ ] Format Image
-      - [ ] Repeat Section
+      - [x] Validate form before submit
+      - [x] Submit form
+        - [x] ProjectFormSignaturesV3
+        - [x] ProjectUploads
+        - [x] ProjectFormsV3
+      - [x] Show error/success message as applicable after submit
+      - [x] Format Image
+      - [x] Repeat Section
       - [x] Update values in state when any item gets updated
       - [x] Update Card title
-      - [ ] Update Comment
+      - [x] Update Comment
+      - [ ] Readonly form
     - Challenge
       - [ ] Data accepted by API is in different Format then the state
       - [x] No data in lists
