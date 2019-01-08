@@ -24,7 +24,6 @@
     - Tests
     - Architecture Improvements
       - State Refactoring and Architecture
-      
     - Update libraries
     - Design Improvements
       - Typography
