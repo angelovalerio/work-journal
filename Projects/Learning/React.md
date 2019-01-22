@@ -5,6 +5,10 @@
 
 
 #### Concepts
+- New Concepts
+  - Continuation
+  - monads
+  - Algebraic Effects
 - React creates elements as objects with just two properties
   - type => It can be string or class
     - string => Tag name
