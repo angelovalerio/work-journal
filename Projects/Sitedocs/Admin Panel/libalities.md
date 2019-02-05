@@ -9,7 +9,7 @@
 - jquery
 - react-async-script-loader
 - request
-- source-map-explorer
+- source-map-explorer (We may use it to figure out how much a lib is taking)
 - url-join
 
 
