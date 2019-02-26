@@ -9,7 +9,6 @@
 - jquery
 - react-async-script-loader
 - request
-- source-map-explorer (We may use it to figure out how much a lib is taking)
 - url-join
 
 
@@ -17,4 +16,4 @@
 - babel
 - react
 - use webpack for build and module management
-- 
+- material UI
